@@ -1,8 +1,7 @@
-GOPATH := $(shell pwd)
+
 
 all:
-	@GOPATH=$(GOPATH) go get -d
-	@GOPATH=$(GOPATH) go run ./demoGenServer.go
+	go run ./demoGenServer.go
 
 
 
