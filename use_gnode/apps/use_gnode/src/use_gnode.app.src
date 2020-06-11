@@ -1,0 +1,16 @@
+{application, use_gnode,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {use_gnode_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+    , glib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
